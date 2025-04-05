@@ -1,5 +1,5 @@
 .popular{
-   margin-top: 40px;
+   margin-top: 80px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -19,8 +19,7 @@
     background-color: black;
 }
 .popular-item{
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     gap: 20px;
-   
 }
