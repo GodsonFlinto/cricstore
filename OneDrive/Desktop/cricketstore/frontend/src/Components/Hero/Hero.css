@@ -65,7 +65,8 @@
 }
 .hero-right img{
     position: absolute;
-    margin-bottom: 144px;
+    margin-bottom: 120px;
+    height: 80vh;
     width: 450px;
 }
 .hero-hand-icon span{

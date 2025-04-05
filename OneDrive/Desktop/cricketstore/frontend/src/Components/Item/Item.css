@@ -1,9 +1,14 @@
 .item{
-    width: 350px;
+    width: 250px;
+    border: 2px solid black;
+    padding: 10px;
 }
 .item p{
     margin: 6px 0px;
 }   
+.item img{
+    width: 250px;
+}
 .item-prices{
     display: flex;
     gap: 20px;
