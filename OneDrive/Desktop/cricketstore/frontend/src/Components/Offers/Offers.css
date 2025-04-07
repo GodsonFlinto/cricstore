@@ -1,0 +1,53 @@
+.offers{
+    width: 65%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    padding: 30px 140px;
+    margin-bottom: 150px;
+    background: rgb(240, 188, 0);
+}
+
+.offers-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+.offers-left h1{
+    color: black;
+    font-size: 80px;
+    font-weight: 600;
+}
+.offers-left p{
+    padding-top: 5px;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+}
+.offers-left button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 282px;
+    height: 70px;
+    border-radius: 35px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.offers-right{
+    flex:1;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.offers-right img{
+    height: 600px;
+}

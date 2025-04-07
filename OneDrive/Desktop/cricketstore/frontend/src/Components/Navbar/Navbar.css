@@ -71,7 +71,7 @@
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -85,7 +85,6 @@
 .nav-login-cart:hover{
     cursor: pointer;
     color: white;
-
 }
 .nav-cart-count{
     width: 22px;

@@ -3,7 +3,7 @@ import './Hero.css'
 import hand_icon from '../Assets/hand_icon.png'
 import arrow_icon from '../Assets/arrow.png'
 import hero_image from '../Assets/hero_image.png'
-
+import * as utils from "@navin0507/string-utilsmns"
 export const Hero = () => {
   return (
     <div className='hero'>

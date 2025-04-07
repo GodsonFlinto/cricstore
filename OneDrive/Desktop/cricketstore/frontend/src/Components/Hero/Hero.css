@@ -39,6 +39,7 @@
     width: 105px;
 }
 .hero-latest-btn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,8 +55,8 @@
 }
 .hero-latest-btn:hover{
     cursor: pointer;
-    transform: translateX(10px);
-    transition: 0.5s ease-in;
+    transform: scale(1.05);
+    transition: 0.6s;
 }
 .hero-right{
     flex: 1;

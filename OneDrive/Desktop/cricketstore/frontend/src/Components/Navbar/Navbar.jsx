@@ -3,11 +3,12 @@ import './Navbar.css'
 import logo from '../Assets/logo.png'
 import cart_icon from '../Assets/cart_icon.png'
 import { Link } from 'react-router-dom'
+import { getInitials } from '@navin0507/string-utilsmns'
 
 export const Navbar = () => {
 
   const[ menu,setMenu] = useState("shop");
-
+  const [user, setuser] = useState("GodSon Flinto")
   return (
     <div className='navbar'>
         <div className='nav-logo'>
