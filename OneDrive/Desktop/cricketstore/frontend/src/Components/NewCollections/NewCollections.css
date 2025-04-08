@@ -15,9 +15,8 @@
  }
  .new-collections hr{
      width: 200px;
-     height: 6px;
      border-radius: 10px;
-     background-color: black;
+     background-color: rgb(0, 0, 0);
  }
  .new-collections-item{
      margin-top: 40px;
