@@ -16,10 +16,10 @@ export const Navbar = () => {
             <p>Cric Store</p>
         </div>
         <ul className="nav-menu">
-            <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration:'none'}} to='/'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu("mens")}}><Link style={{textDecoration:'none'}} to='/mens'>Men</Link> {menu==="mens"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu("womens")}}><Link style={{textDecoration:'none'}} to='womens'>Women</Link> {menu==="womens"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu("kids")}}><Link style={{textDecoration:'none'}} to='kids'>Kids</Link> {menu==="kids"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration:'none'}} to='/'>Home</Link>{menu==="shop"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("mens")}}><Link style={{textDecoration:'none'}} to='/mens'>Jerseys</Link> {menu==="mens"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("womens")}}><Link style={{textDecoration:'none'}} to='womens'>Accessories</Link> {menu==="womens"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("kids")}}><Link style={{textDecoration:'none'}} to='kids'>Equipment</Link> {menu==="kids"?<hr/>:<></>}</li>
         </ul>
         <div className='nav-login-cart' >
             <Link to='/login' className='login-btn'>Login</Link>
