@@ -29,6 +29,7 @@
     font-weight: 500;
 }
 .nav-menu li{
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;

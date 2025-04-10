@@ -3,7 +3,7 @@ import './CartItems.css'
 import { ShopContext } from '../../Context/ShopContext'
 import remove_icon from '../Assets/cart_cross_icon.png'
 export const CartItems = () => {
-    const {all_product,cartItems,addToCart,removeFromCart} = useContext(ShopContext)
+    const {getTotalCartItem,getTotalCartAmount,all_product,cartItems,addToCart,removeFromCart} = useContext(ShopContext)
 
   return (
     <div className='cartitems'>
@@ -18,12 +18,16 @@ export const CartItems = () => {
         <hr />
         {all_product.map((e)=>{
             if(cartItems[e.id]>0){
-                return <div>
+                return <div key={e.id}>
                 <div className="cartitems-format cartitems-format-main">
                     <img className='cartitems-product-icon' src={e.image} alt="" />
                     <p>{e.name}</p>
                     <p  className='cart-title'>{e.new_price}</p>
-                    <button className='cartitems-quantity'>{cartItems[e.id]}</button>
+                    <div className="cartitems-quantity-box">
+  <button onClick={() => removeFromCart(e.id)}>-</button>
+  <span>{cartItems[e.id]}</span>
+  <button onClick={() => addToCart(e.id)}>+</button>
+</div>
                     <p className='cart-price'>Rs.{e.new_price*cartItems[e.id]}</p>
                     <img className='cartitems-remove-icon' src={remove_icon} onClick={()=>{removeFromCart(e.id)}} alt="" />
                 </div>
@@ -37,7 +41,7 @@ export const CartItems = () => {
                 <div>
                     <div className="cartitems-total-item">
                         <p>Subtotal</p>
-                        <p>Rs.{0}</p>
+                        <p>Rs.{getTotalCartAmount()}</p>
                     </div>
                     <hr />
                     <div className="cartitems-total-item">
@@ -47,7 +51,7 @@ export const CartItems = () => {
                     <hr />
                     <div className="cartitems-total-item">
                         <h3>Total</h3>
-                        <h3>Rs.{0}</h3>
+                        <h3>Rs.{getTotalCartAmount()}</h3>
                     </div>
                 </div>
                 <button>Proceed To Checkout</button>
