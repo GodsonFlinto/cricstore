@@ -1,0 +1,113 @@
+.cartitems{
+    padding-left: 50px;
+    margin: 100px 170px;
+}
+.cartitems hr{
+    width: 1070px;
+    height: 2px;
+    background: red;
+    border: 0;
+}
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 0px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+} 
+.cartitems-format{
+    color: rgb(115, 115, 115);
+    font-size: 17px;
+    font-weight: 500;
+}
+.cartitems-product-icon{
+    margin: 0px 10px;
+    height: 62px;
+}
+.cartitems-remove-icon{
+    width: 15px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.cartitems-quantity{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(75, 75, 75);
+    background: #fff;
+    margin: 0px 20px;
+
+}
+.cart-title{
+    margin: 0px 10px;
+}
+.cart-price{
+    margin: 0px 5px;
+}
+.cartitems-down{
+    display: flex;
+    margin: 100px 0px;
+}
+.cartitems-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    margin-right: 200px;
+    gap: 40px;
+}
+.cartitems-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px; 
+}
+.cartitems-total button{
+    width: 262px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cartitems-promocode{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cartitems-promocode p{
+    color: rgb(63, 63, 63);
+
+}
+.cartitems-promobox{
+    width: 500px;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 50px;
+    background: rgb(171, 171, 171);
+    border-radius: 5px;
+}
+.cartitems-promobox input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 330px;
+    height: 50px;
+}
+.cartitems-promobox button{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
