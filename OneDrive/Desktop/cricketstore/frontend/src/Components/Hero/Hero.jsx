@@ -8,15 +8,15 @@ export const Hero = () => {
   return (
     <div className='hero'>
         <div className="hero-left">
-        <h2>New Arrivals Only<span style={{ color: 'black' }}> !!</span></h2>
+        <h2 className='typing-text'>"Your Cricket, Your Style."<span style={{ color: 'black' }}> !!</span></h2>
         <div>
                 <div className="hero-hand-icon">
-                    <p>New</p>
-                    <span className=''>👌</span>
+                    <p>Where Every</p>
+                    <span className=''></span>
                     {/* <img src={hand_icon} alt=''/> */}
                 </div>
-                <p>Collections</p>
-                <p>for everyone</p>
+                <p>Cricketer Shops.</p>
+                <p></p>
             </div>    
             <div className="hero-latest-btn">
                 <div>Latest Collection</div>

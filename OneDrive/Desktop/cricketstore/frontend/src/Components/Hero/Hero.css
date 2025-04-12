@@ -28,6 +28,7 @@
     color: black;
     font-size: 70px;
     font-weight: 600;
+    font-style: italic;
 }
 .hero-hand-icon{
     display: flex;
@@ -66,7 +67,7 @@
 }
 .hero-right img{
     position: absolute;
-    margin-bottom: 120px;
+    margin-bottom: 118px;
     height: 80vh;
     width: 450px;
 }
@@ -74,3 +75,16 @@
     font-size: 50px;
     margin-left: -20px;
 }
+.typing-text {
+    display: inline-block;
+    animation: typingSteps 2s steps(20, end) forwards;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid crimson;
+  }
+  
+  @keyframes typingSteps {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
