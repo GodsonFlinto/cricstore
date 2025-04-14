@@ -7,12 +7,18 @@ export const Login = () => {
     <div className='login'>
       <div className="login-container">
         <h1>Login</h1>
-        <div className="login-fields">
-          <input type="text" placeholder='Email Address'/>
-          <input type="text" placeholder='Password'/>
-        </div>
-        <p className="login-login">New User? <Link to='/signup' style={{color : 'red', textDecoration : 'none'}}>SignUp</Link></p>
-        <button>Login</button>
+        <form className="login-fields">
+          <label htmlFor="email">Email Address</label>
+          <input id="email" type="text" name="email" placeholder="Email Address" />
+
+          <label htmlFor="password">Password</label>
+          <input id="password" type="password" name="password" placeholder="Password" />
+
+          <button type="submit">Login</button>
+        </form>
+        <p className="login-login">
+          New User? <Link to='/signup' style={{color: 'red', textDecoration: 'none'}}>SignUp</Link>
+        </p>
       </div>
     </div>
   )

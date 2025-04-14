@@ -14,7 +14,7 @@
 }
 .loginsignup-container h1{
     text-align: center;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 .loginsignup-fields{
     display: flex;
@@ -34,13 +34,23 @@
     font-size: 18px;
     border-radius: 10px;
 }
+.loginsignup-fields span{
+    color: crimson;
+  font-size: 12px;
+  margin-top: -20px;
+  margin-bottom: -10px;
+  display: block;
+  text-align: left;
+  padding-right: 220px;
+   
+}
 .loginsignup-container button{
     height: 50px;
     width: 150px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     background: red;
-    margin-top: 30px;
+    margin-top: 20px;
     border: #000000;
     border-radius: 20px;
     margin-left: 90px;
